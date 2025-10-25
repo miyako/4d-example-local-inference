@@ -5,8 +5,6 @@
 # 4d-example-local-inference
 Use llama.cpp from 4D
 
- <img width="912" height="612" alt="" src="https://github.com/user-attachments/assets/857d8f4b-c41e-4c1d-8b02-36c611becc43" />
-
 [dependencies](https://github.com/miyako/4d-example-local-inference/blob/main/local-inference/Project/Sources/dependencies.json)
 
 * [`miyako/llama-cpp`](https://github.com/miyako/llama-cpp)
@@ -57,9 +55,11 @@ $response:=$AIClient.embeddings.create($text; "nomic-embed-text-v1.5.f16.gguf"; 
 ```
 
 * terminate `llama.cpp`
-
+ 
 ```4d
 var $llama : cs.llama.server
 $llama:=cs.llama.server.new()
 $llama.terminate()
 ``` 
+
+<img width="912" height="612" alt="" src="https://github.com/user-attachments/assets/857d8f4b-c41e-4c1d-8b02-36c611becc43" />
