@@ -19,7 +19,8 @@ for a standard consumer PC, maybe `nomic-embed-text-v1.5.f16.gguf`, size `274,29
 * start `llama.cpp` locally
 
 ```4d
-$file:=File("/Resources/models/nomic-embed-text-v1.5.f16.gguf"; fk platform path)
+var $file : 4D.File
+$file:=File("/RESOURCES/models/nomic-embed-text-v1.5.f16.gguf"; fk platform path)
 
 var $llama : cs.llama.server
 $llama:=cs.llama.server.new()
