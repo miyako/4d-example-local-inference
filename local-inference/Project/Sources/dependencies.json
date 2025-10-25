@@ -1,0 +1,13 @@
+{
+	"version": 2100,
+	"dependencies": {
+		"llama cpp": {
+			"github": "miyako/llama-cpp",
+			"version": "latest"
+		},
+		"4D AIKit": {
+			"github": "4d/4D-AIKit",
+			"version": "latest"
+		}
+	}
+}
