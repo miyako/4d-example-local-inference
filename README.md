@@ -7,9 +7,9 @@ Use llama.cpp from 4D
 
 [dependencies](https://github.com/miyako/4d-example-local-inference/blob/main/local-inference/Project/Sources/dependencies.json)
 
-* [miyako/llama-cpp](https://github.com/miyako/llama-cpp)
+* [`miyako/llama-cpp`](https://github.com/miyako/llama-cpp)
 * [`4d/4D-AIKit`](https://github.com/4d/4D-AIKit)
-* 
+ 
 ## instructions
 
 download [nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF) in GGUF format.
