@@ -1,0 +1,4 @@
+local-inference/userPreferences.*
+local-inference/Project/DerivedData/formAttributes.json
+local-inference/Project/DerivedData/methodAttributes.json
+local-inference/Data/
