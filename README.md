@@ -19,7 +19,8 @@ for a standard consumer PC, maybe `nomic-embed-text-v1.5.f16.gguf`, size `274,29
 * start `llama.cpp` locally
 
 ```4d
-$file:=File("/Resources/models/nomic-embed-text-v1.5.f16.gguf"; fk platform path)
+var $file : 4D.File
+$file:=File("/RESOURCES/models/nomic-embed-text-v1.5.f16.gguf")
 
 var $llama : cs.llama.server
 $llama:=cs.llama.server.new()
@@ -54,9 +55,11 @@ $response:=$AIClient.embeddings.create($text; "nomic-embed-text-v1.5.f16.gguf"; 
 ```
 
 * terminate `llama.cpp`
-
+ 
 ```4d
 var $llama : cs.llama.server
 $llama:=cs.llama.server.new()
 $llama.terminate()
 ``` 
+
+<img width="912" height="612" alt="" src="https://github.com/user-attachments/assets/857d8f4b-c41e-4c1d-8b02-36c611becc43" />

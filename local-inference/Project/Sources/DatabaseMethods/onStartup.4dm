@@ -1,5 +1,4 @@
-var $file : 4D:C1709.File
-$file:=File:C1566("/RESOURCES/models/nomic-embed-text-v1.5.f16.gguf")
+$file:=File:C1566("/RESOURCES/models/nomic-embed-text-v1.5.f16.gguf"; fk platform path:K87:2)
 
 var $llama : cs:C1710.llama.server
 $llama:=cs:C1710.llama.server.new()
