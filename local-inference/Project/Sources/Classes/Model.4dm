@@ -45,6 +45,8 @@ Function start()
 		top_p: 0.9; \
 		repeat_penalty: 1.1})
 	
+	KILL WORKER:C1390
+	
 Function onResponse($request : 4D:C1709.HTTPRequest; $event : Object)
 	
 	If ($request.response.status=200) && ($request.dataType="blob")
@@ -53,4 +55,3 @@ Function onResponse($request : 4D:C1709.HTTPRequest; $event : Object)
 	End if 
 	
 Function onError($request : 4D:C1709.HTTPRequest; $event : Object)
-	

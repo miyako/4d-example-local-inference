@@ -13,7 +13,7 @@ If (Count parameters:C259=0)
 			$file:=File:C1566("/RESOURCES/models/nomic-embed-text-v1.5.f16.gguf")
 			$URL:="https://github.com/miyako/4d-example-pdf-chunking/releases/download/nomic-embed-text-v1.5.f16.gguf/nomic-embed-text-v1.5.f16.gguf"
 	End case 
-	CALL WORKER:C1389("test"; Current method name:C684; {lang: $lang; file: $file; URL: $URL})
+	CALL WORKER:C1389(Current method name:C684; Current method name:C684; {lang: $lang; file: $file; URL: $URL})
 Else 
 	
 	var $model : cs:C1710.Model
