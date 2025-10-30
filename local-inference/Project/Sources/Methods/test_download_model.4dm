@@ -11,7 +11,7 @@ If (Count parameters:C259=0)
 			$URL:="https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B-GGUF/resolve/main/Llama-3-ELYZA-JP-8B-q4_k_m.gguf"
 		Else 
 			$file:=File:C1566("/RESOURCES/models/nomic-embed-text-v1.5.f16.gguf")
-			$URL:="https://github.com/miyako/4d-example-pdf-chunking/releases/download/nomic-embed-text-v1.5.f16.gguf/nomic-embed-text-v1.5.f16.gguf"
+			$URL:="https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf"
 	End case 
 	CALL WORKER:C1389(Current method name:C684; Current method name:C684; {lang: $lang; file: $file; URL: $URL})
 Else 
